@@ -31,12 +31,12 @@ h3{
 }
 
 h4{
-	margin-top: 40pt;
-	margin-bottom: -5pt;
+	margin-top: 3em;
+	margin-bottom: 0em;
 }
 
 p{
-	margin-bottom: -10pt;
+	margin-bottom: -0.5em;
 }
 
 ul{
@@ -44,9 +44,9 @@ ul{
 	font-style: italic;
 	text-align: justify; 
 	font-size: 12pt;
-	padding-top: 5pt;
+	padding-top: 2em;
 	padding-right: 10%;
-	padding-bottom: 70pt;
+	padding-bottom: 5em;
 	padding-left: 10%;
 	background-color: white;
 	border-radius: 10pt;

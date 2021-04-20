@@ -44,10 +44,10 @@ ul{
 	font-style: italic;
 	text-align: justify; 
 	font-size: 12pt;
-	padding-right: 10%;
-	padding-left: 10%;
-	padding-bottom: 70pt;
 	padding-top: 5pt;
+	padding-right: 10%;
+	padding-bottom: 70pt;
+	padding-left: 10%;
 	background-color: white;
 	border-radius: 10pt;
 }

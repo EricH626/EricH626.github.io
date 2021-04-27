@@ -1,0 +1,83 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. Feel free to keep it or delete it. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+	content: url("image.jpg");
+	position:absolute;
+	z-index: -1;
+}
+
+header{
+	position: absolute;
+	margin-top: 8%;
+	margin-right: 5%;
+	margin-left: 5%;
+	color: rgba(255,255,255,1.00);
+	text-shadow: 0.05em 0.05em 2em rgb(0, 0, 0);
+	text-align: center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+h1{
+	font-size: 2em;
+	line-height: 100%;
+}
+
+h2{
+	font-size: 1.2em;
+	font-style: italic;
+	line-height: 200%;
+}
+
+figcaption{
+	position: absolute;
+	font-weight: 1000;
+	color: rgba(255,255,255,1.00);
+	text-shadow: 0.05em 0.05em 2em rgb(0, 0, 0);
+	margin-top: 40%;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: justify;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+h3{
+	font-style: italic;
+}
+
+.ingredients{
+	position: absolute;
+	margin-top: 26em;
+	margin-right: 15%;
+	margin-left: 15%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 1000;
+}
+
+.directions{
+	position: absolute;
+	margin-top: 48em;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding-bottom: 15%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 1000;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: white;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(95,46,5,0.9);
+	padding: 5px;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */

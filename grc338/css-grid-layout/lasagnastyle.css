@@ -1,0 +1,86 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. Feel free to keep it or delete it. */
+
+
+
+body {
+	padding: 1em;
+	background-color: #FFC3C4;
+}
+
+.container{
+	max-width: 50em;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 6em auto auto 2em;
+	grid-gap: 1em;
+}
+
+header{
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background: #6E1416;
+	grid-column: 1/5;
+	padding-top: 0.75em;
+	padding-left: 2em;
+	border-radius: 2em;
+}
+
+figure{
+	grid-column: 1/5;
+	display:grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 1em;
+}
+
+img {
+	object-fit: cover;
+	height: 20em;
+	width: 100%;
+	border-radius: 2em;
+}
+
+figcaption{
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background: #6E1416;
+	border-radius: 2em;
+	padding: 1em;
+}
+
+main{
+	grid-column: 1/5;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+}
+
+.ingredients{
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background: #6E1416;
+	border-radius: 2em;
+	padding: 2em;
+}
+
+.directions{
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background: #6E1416;
+	border-radius: 2em;
+	padding: 2em;
+}
+
+footer{
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-top: 0.5em;
+	padding-left: 1em;
+	background: #6E1416;
+	grid-column: 1/5;
+	grid-row: 4/5;
+	border-radius: 2em;
+}

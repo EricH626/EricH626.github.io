@@ -1,0 +1,61 @@
+/*CSS DOCUMENT*/
+
+body{
+	padding: 1em;
+	background-image:url("darkMatte.jpg");
+	background-repeat: round repeat;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	grid-template-rows: auto auto ;
+}
+
+header{
+	grid-column: 1/4;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+}
+
+.logo {
+	width: 100%;
+}
+
+.nav{
+	list-style-type: none;
+	font-family: almaq-rough, sans-serif;
+	font-size: 2em;
+	line-height: 1.5;
+}
+
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+main{
+	grid-column: 1/4;
+	font-family: almaq-rough, sans-serif;
+	color: #FFFFFF;
+}
+
+img{
+	width: 100%;
+	padding-top: 1em;
+}
+
+.product{
+	margin: 0.2em;
+}
+
+.last{
+	padding-bottom: 2em;
+}
+
+h3{
+	padding-top: 1em;
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
